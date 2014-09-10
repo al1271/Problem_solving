@@ -2,9 +2,12 @@
 
 //Calculate how many inches are in a 250x500 image with 120 dpi
 
-var width = 250;
-var height = 500;
-var dpi = 120;
+
+
+var width = prompt("What is the width of your image?");
+var height = prompt("what is the height of your image?");
+var dpi = prompt("what dpi is it at?");
+
 
 //using the following variables to calculate the inches of the image.
 

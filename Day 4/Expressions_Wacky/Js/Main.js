@@ -4,8 +4,8 @@
 
 var fLength = 100;
 var fWidth = 55.3;
-var pLength = 1;
-var pWidth = 2;
+var pLength = prompt("What is the length of your cake?");
+var pWidth = prompt("what is is width of your cake?");
 
 //converting the pie into yards
 //For every foot there is 0.333333 yards

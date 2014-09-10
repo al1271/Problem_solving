@@ -8,12 +8,12 @@ var name= "Alex";
 
 //Amount spent per month
 
-var rent = 1034;
+var rent = prompt("how much is rent a month?");
 var electric = 160;
 var water = 80;
 var insurance = 123;
 var food = 200;
-var gas = 60;
+var gas = prompt("how much do you spend on gas a month?");
 
 //Calculating the amount that is spent through out the moth
 
