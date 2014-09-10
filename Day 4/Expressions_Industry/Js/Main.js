@@ -3,9 +3,11 @@
 //Calculate how many inches are in a 250x500 image with 120 dpi
 
 
-
+//width of room
 var width = prompt("What is the width of your image?");
+//height of room
 var height = prompt("what is the height of your image?");
+//dpi = dots per inch
 var dpi = prompt("what dpi is it at?");
 
 

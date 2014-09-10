@@ -4,8 +4,8 @@
 
 var fLength = 100;
 var fWidth = 55.3;
-var pLength = prompt("What is the length of your cake?");
-var pWidth = prompt("what is is width of your cake?");
+var pLength = prompt("What is the length of your cake?(In Inches)");
+var pWidth = prompt("what is is width of your cake?(In Inches)");
 
 //converting the pie into yards
 //For every foot there is 0.333333 yards
@@ -30,5 +30,5 @@ var aFootCake = areaFootball / areaCake;
 
 var pFootcake = perFootball / converted;
 
-console.log("The area of a football field is " + areaFootball + "yd^2 and the area of a cake is " + areaCake + "yd^2 so from that information I determined that " + aFootCake +" cakes can fit in a football field, and the perimeter of a football field " +
+console.log("The area of a football field is " + areaFootball + "yd and the area of a cake is " + areaCake + "yd^2 so from that information I determined that " + aFootCake + " cakes can fit in a football field, and the perimeter of a football field " +
     "is " + perFootball + "yd so from that I concluded that " + pFootcake + " cakes can fit around a football field if placed length ways");
