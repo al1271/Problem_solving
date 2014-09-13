@@ -24,28 +24,37 @@ var ePass = "998";
 //if Both are correct
 if(eUser === user && ePass === pass){
     //console welcomes you
-    console.log("Welcome, alex")
+    console.log("Welcome, alex");
     //if user is incorrect and pass is correct
 }else if(eUser != user && ePass === pass){
     //console says user is not found
-    console.log("User not found. Try again.")
+    console.log("User not found. Try again.");
+    //if user is correct but password is not
 }else if (eUser === user && ePass != pass) {
+    //console says password does not match
     console.log("Password does not match our records.")
 }else{
+    //if user nor password match
     console.log("User or password does not match our records please try again.")
 }
 
 
 //#3
+//time and age are asked through a prompt
 var time = prompt("Is it between the times of 3pm and 5pm(Yes or No)");
 var age = prompt("Are you under 10 or over 55? (Yes or No)");
+//ticket prices n=no discount d=discount
 var nTicket = 12;
 var dTicket = 7;
+//if time and age are in discount range
 if(time === "Yes" && age === "Yes"){
-    console.log("Your ticket price is $" + dTicket )
+    console.log("Your ticket price is $" + dTicket );
+    //if time isn't but age is
 }else if(time === "No" && age === "Yes"){
     console.log("Your ticket price is $" + dTicket)
-}else{
-    console.log("Your ticket price is $" + nTicket)
-}
 
+}else if(time === "Yes" && age === "No"){
+        console.log("Your ticket price is $" + dTicket)
+}else{
+        console.log("Your ticket price is $" + nTicket)
+    }
