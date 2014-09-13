@@ -7,9 +7,9 @@ var temperatureType = prompt("Are you converting to celsius or fahrenheit");
 //prompt asking what type of temperature
 
 if(temperatureType == "fahrenheit"){
-    console.log("the temperature is" + ((temp - 32) * 5 / 9) + "degrees Fahrenheit.")
+    console.log("the temperature is " + ((temp - 32) * 5 / 9) + "degrees Fahrenheit.")
 } else if (temperatureType == "celsius") {
-    console.log("The temperature is" + (temp * 9 / 5 + 32) + "degrees Celsius.")
+    console.log("The temperature is " + (temp * 9 / 5 + 32) + " degrees Celsius.")
 }
 
 
