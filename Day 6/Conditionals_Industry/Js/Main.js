@@ -1,8 +1,10 @@
 //Alexander Garza 09/15/14 section 0
 //Determining how much someones car insurance will cost depending on their name and area.
-
+//asking age
 var age = Number(prompt("How old are you?"));
+//Asking if you live in florida
 var area = prompt("Do you live in Florida").toLowerCase();
+//Areas in florida
 var flArea = prompt("Do you live in orlando, miami, or ocala").toLowerCase();
 //asking which part of the state they are living
 
