@@ -1,2 +1,2 @@
-//Loops
+//While Loops
 
