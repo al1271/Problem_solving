@@ -8,22 +8,22 @@ var food = Number(prompt("How much are you going to spend on food"));
 var gifts = Number(prompt("how much are you going to spend on gifts"));
 
 //checking if user has set an amount for cash
-if(cash == ""){
+while(cash == ""){
     console.log("You did not enter an amount for cash");
     cash = Number(prompt("Please enter how much cash you have."));
 }
 //checking if user has set an amount for gas
-if(gas == ""){
+while(gas == ""){
     console.log("You did not enter an amount for gas");
     gas = Number(prompt("Please enter how much you're going to spend on gas"));
 }
 //checking if user has set an amount for food
-if(food == ""){
+while(food == ""){
     console.log("You did not enter an amount for food");
     food = Number(prompt("Please enter how much you're going to spend on food"));
 }
 //checking if user has set an amount for gifts
-if(gifts == ""){
+while(gifts == ""){
     console.log("You did not enter an amount for gifts");
     gifts = Number(prompt("Please enter how much you're spending on gifts if nothing put 0"));
 }
