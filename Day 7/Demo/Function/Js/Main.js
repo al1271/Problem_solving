@@ -30,3 +30,10 @@ function calcArea (){
 }
 calcArea();
 calcArea();
+
+function calcDog(){
+    var dogA = prompt("how old is your dog is human years");
+    var calc = dogA * 7;
+    console.log("Your dog is " +calc);
+}
+calcDog();
