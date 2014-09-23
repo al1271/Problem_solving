@@ -27,7 +27,7 @@ var stingPound = 8.666666667;
 //setting up the function call
 var amountStings = calculateAmount(weight, stingPound);
 //setting up the output of the amount of stings itll take to kill the animal
-console.log("The amount of stings it'll take to kill this animal is " + amountStings);
+console.log("It takes"+ amountStings + "bee stings to kill this animal.");
 //calling the function
 function calculateAmount(weight,stingPound) {
     //what the console log is going to spit out after calculation
